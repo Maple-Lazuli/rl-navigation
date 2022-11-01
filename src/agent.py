@@ -1,5 +1,5 @@
 import numpy as np
-from environments import L9Env
+from src.environments import L9Env
 
 
 class Agent:
