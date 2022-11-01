@@ -17,7 +17,7 @@ class L9Env:
         self.state_to_location = dict((state, location) for location, state in self.location_to_state.items())
 
         self.rewards_base = np.array([[0, 1, 0, 0, 0, 0, 0, 0, 0],
-                                      [1, 0, 1, 0, 0, 0, 0, 0, 0],
+                                      [1, 0, 1, 0, 1, 0, 0, 0, 0],
                                       [0, 1, 0, 0, 0, 1, 0, 0, 0],
                                       [0, 0, 0, 0, 0, 0, 1, 0, 0],
                                       [0, 1, 0, 0, 0, 0, 0, 1, 0],
@@ -60,7 +60,7 @@ class L10Env:
         self.state_to_location = dict((state, location) for location, state in self.location_to_state.items())
 
         self.rewards_base = np.array([[0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
-                                      [1, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+                                      [1, 0, 1, 0, 1, 0, 0, 0, 0, 0],
                                       [0, 1, 0, 0, 0, 1, 0, 0, 0, 0],
                                       [0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
                                       [0, 1, 0, 0, 0, 0, 0, 1, 0, 0],
